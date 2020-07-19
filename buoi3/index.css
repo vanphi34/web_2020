@@ -1,0 +1,25 @@
+.menu ul li{
+    list-style: none;
+    width: 185px;
+    height: 40px;
+    line-height: 40px;
+    background-color: aqua;
+    border: 1px solid red;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    position: relative;
+}
+.menu ul li ul li{
+    left: 145px;
+    top:-42px;
+    display: none;
+}
+ul li:hover{
+    background-color: red;
+}
+.menu ul li:hover ul li{
+    display: inline-block;
+}
